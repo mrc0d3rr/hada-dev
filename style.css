@@ -1,0 +1,59 @@
+body {
+	background: none;
+  no-repeat center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.header .container {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+	padding: 1rem;
+	background-color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 35%;
+}
+.header .container hr {
+	width: 80%;
+}
+.header .container > button {
+	padding: 0.5rem 2rem;
+	color: #fff;
+	background-color: #4267b2;
+	border: none;
+	border-radius: 5px;
+}
+.header .container .sign input {
+	padding: 0.5rem;
+	width: 70%;
+}
+.header .container .sign input[type=checkbox] {
+	padding: 0.5rem;
+	width: auto;
+}
+.header .container .sign > button {
+	padding: 1rem;
+	background-color: #2ecc71;
+	font-size: 1rem;
+	width: 50%;
+	border-radius: 7px;
+	border: none;
+}
+
+  .clock{
+  background: none;
+  height: 100px;
+  
+  line-height: 120px;
+  text-align: center;
+  padding: 0 30px;
+  box-shadow: -3px -3px 7px rgba(255,255,255,0.05),
+               3px 3px 5px rgba(0,0,0,0.5);
+}
+.clock .display{
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 5px;
+  font-family: 'Orbitron', sans-serif;
+}
